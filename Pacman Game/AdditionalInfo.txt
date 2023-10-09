@@ -1,0 +1,58 @@
+READ ME FILE 
+
+Classes used in the game: 
+- Picture class
+- TextPicture class
+- ImagePicture class
+- Character class
+- Player class
+- GameUI class
+- HelpScreen class
+- HomeScreen class
+- LeaderboardRecord class
+- LeaderboardList class
+- LeaderboardUI class
+- PacmanGame class
+- FileAccess class
+
+How the program is launched: 
+	The user opens the jar file labeled "Pacman game", which will open the home screen to the game. The 
+	home screen will show the user the title of the game, as well as three drop box features and five buttons
+	for the user to use. The three drop boxes allow the user to choose which character they want to play with, 
+	which level they want to play on, and what the background of their game can be, which is also considered
+	the location where they will be playing in. Once the user chooses their preferences, the game will display
+	what they have chosen before starting the game. This is all done by the classes "HomeScreen", "TextPicture", 
+	and "Picture". The five buttons allow the user to perform different actions on the home screen. 
+	
+	The "start" button will create a separate screen where the game will be played, and will show the user how 
+	many lives they have, how much time they have throughout the game, and what their score is as they play. They 
+	will also see how many ghosts they are against, where the orbs are, and where the blocks of the maze are. In 
+	the game, for every time they earn a score of 50, the user will receive a temporary power up which will allow
+	the user to move faster in the maze, before it disappears. This is all done using the classes "ImagePicture",
+	"Character", "Player", "GameUI", and "PacmanGame". 
+	
+	The "Help" button will create a separate screen which will give the user instructions on how to play the game, 
+	and how to use the leaderboard when the user is completed the game and wish to see their rank in the game, and 
+	can be closed by using the "go back" button on the bottom of the screen, which will then return them to the home
+	screen. This is done using the class "HelpScreen" and "TextPicture". 
+	
+	The "Leaderboard" button will create a separate screen that shows the user the top three players in the game, and
+	shows the user their name, score, the difficulty level they had done it on, and the time it took for them to reach
+	that rank, along with its own series of buttons. The "Go back" button allows the user to close the screen and
+	go back to the home screen. The "save file" button allows the user to download the entire leaderboard of the 
+	top 30 players in the game. The "show all" button allows the user to see the entire top 30 players from the game.
+	The "search leaderboard" button allows the user to search the name of the player they want to see if they can not
+	find them in the ranks. This is done by "LeaderboardList", "LeaderboardRecord", "LeaderboardUI". 
+	
+	The "upload leaderboard" button will allow the user to upload the leaderboard file into the leaderboard screen so 
+	that the user can play with to either beat their old score or beat another player's score. This is done with the 
+	class "FileAccess". 
+	
+	The "exit" button will allow the user to shut down the entire program including any other separate screens open in
+	the game. This is done by the class "HomeScreen". 
+	
+	
+Bugs/problems that still exist in the game:
+	- For the leaderboard class, when the ranks are shown, the names become rotated and causes the first name to move 
+	to third place, the second name to move to first place, and the third name to move to second place. This bug was
+	attempted to be fixed, but was unable to be fixed in the end. 
