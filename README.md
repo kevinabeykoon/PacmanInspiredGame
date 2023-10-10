@@ -16,7 +16,7 @@ game data. Each game is listed under the user's name. It can therefore be access
 ### Dependencies
 
 * All libraries are included in the package. However, Java (Version 17) should be installed.
-* This program was developed on Windows 10. 
+* This program was developed on Windows 10 using Eclipse. 
 
 ### Running the Program
 
