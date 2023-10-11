@@ -1,7 +1,7 @@
 # Pac-man Inspired Game
 
 <img width="36.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/74f0fafd-0b31-4196-a0ab-704c34cb405a" alt="cover" /> <img width="36.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/93dd6509-48fa-4791-93b5-725d5c48aad6" alt="cover" />
-<img width="36.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/d87d4882-5db1-4617-bfab-64efced92d30" alt="cover" />          <img width="26.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/bbda8b09-8996-44d8-8424-be338b494ee0" alt="cover" />
+<img width="36.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/d87d4882-5db1-4617-bfab-64efced92d30" alt="cover" /> <img width="26.78%" src="https://github.com/kevinabeykoon/PacmanInspiredGame/assets/63886616/bbda8b09-8996-44d8-8424-be338b494ee0" alt="cover" />
 
 
 This program is a game that is inspired by Pac-man and the chinese mythology surrouding macaques.
